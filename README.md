@@ -35,8 +35,7 @@ pod used in many of the most popular apps in the world.
 
 # PromiseKit 7 Alpha
 
-We are testing PromiseKit 7 alpha, it is Swift 5 only. It is tagged and thus
-importable in all package managers.
+We are testing PromiseKit 7 alpha, it is Swift 5 only. You can test with Carthage or SwiftPM.
 
 # PromiseKit 6
 
