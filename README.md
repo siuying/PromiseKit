@@ -51,14 +51,12 @@ PromiseKit 7 adds support for cancelling promises and promise chains.
 
 # Quick Start
 
-In your [Podfile]:
+In your `Package.swift`:
 
-```ruby
-use_frameworks!
-
-target "Change Me!" do
-  pod "PromiseKit", :git => 'https://github.com/mxcl/PromiseKit.git', :branch => 'v7'
-end
+```swift
+package.dependencies.append(
+    .package(url: "https://github.com/mxcl/PromiseKit", from: Version(7, 0, 0, prereleaseIdentifiers: [“alpha”, “1”]))
+)
 ```
 
 PromiseKit 7 supports Swift 5.x; Xcode >= 10.2; iOS, macOS, tvOS, watchOS, Linux
